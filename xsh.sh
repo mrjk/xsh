@@ -39,7 +39,7 @@ XSHELL="${XSHELL#-}" # remove leading '-' for login shells
 # properly inherit the global value.
 XSH_DIR="${XSH_DIR:-${XDG_CONFIG_HOME:-$HOME/.config}/xsh}"
 XSH_CONFIG_DIR="${XSH_CONFIG_DIR:-${XDG_CONFIG_HOME:-$HOME/.config}/shell}"
-XSH_RUNCOM_PREFIX="${XSH_RUNCOM_PREFIX:-@}"
+XSH_RUNCOM_PREFIX="${XSH_RUNCOM_PREFIX:-_}"
 
 # A simple framework for shell configuration management.
 #
