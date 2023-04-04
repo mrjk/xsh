@@ -666,7 +666,7 @@ _xsh_link() {
   local ln='ln'
   command -v gln >/dev/null && ln='gln'
 
-  command "$ln" -vs --backup=numbered "$@"
+  command "$ln" -vrs --backup=numbered "$@"
 }
 
 # Print the current time in milliseconds.
